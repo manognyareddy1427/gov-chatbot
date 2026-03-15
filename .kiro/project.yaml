@@ -1,0 +1,17 @@
+name: gov-chatbot
+description: Smart City AI citizen assistant chatbot
+
+stack:
+  frontend: react
+  backend: nodejs
+  cloud: aws
+
+features:
+  - ai_chatbot
+  - civic_issue_reporting
+  - smart_city_dashboard
+
+integrations:
+  ai: amazon-bedrock
+  storage: s3
+  api: lambda
